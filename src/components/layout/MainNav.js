@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
 
+import cssClass from "./MainNav.module.css";
+
 function MainNav() {
   return (
-    <header>
-      <div>React Meetups</div>
+    <header className={cssClass.header}>
+      <div className={cssClass.logo}>React Meetups</div>
       <nav>
         <ul>
           <li>
